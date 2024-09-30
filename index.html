@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favIcon/icons8-code-96.png" />
+    <title>Tag-Generator</title>
+  </head>
+  <body>
+    <h1 id="tear">This site has been made by tears and suffering 😥, 😂</h1>
+    <section class="input-elements">
+      <textarea
+        name="content"
+        id="tagContent"
+        placeholder="Tag content"
+      ></textarea>
+      <select name="tagName" id="tagName"></select>
+      <textarea
+        name="style"
+        id="styleTag"
+        placeholder="styling, color:red padding:15px"
+      ></textarea>
+      <textarea
+        name="attr"
+        id="attrTag"
+        placeholder="atterbute, id=data,alt=picture"
+      ></textarea>
+      <textarea
+        name="classNTag"
+        id="classNtag"
+        placeholder="classes, card tag classItem"
+      ></textarea>
+      <select name="positionTag" id="positionTag">
+        <option value="before">Before</option>
+        <option value="after">After</option>
+        <option value="append">Append</option>
+        <option value="prepend">Prepend</option>
+      </select>
+      <button id="createBtn">Create</button>
+    </section>
+    <section class="generated-text">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
